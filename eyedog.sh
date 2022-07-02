@@ -19,5 +19,5 @@ read -p "Enter Your option: " red
 if [[ ( $red == 1 ) ||  ( $red == 2 ) ||  ( $red == 3 ) || ( $red == 4 ) ]]  ; then
   clear
   chmod +x kel.sh
-  bash kel.sh
+  bash redir.sh
 fi
