@@ -3,7 +3,7 @@
 clear
 
 echo -e "\033[1;31m"
-file=$(cat bot.txt)
+file=$(cat logo.txt)
 echo -e "\033[1;31m"
 echo "$file"
 echo -e "\n \n"
