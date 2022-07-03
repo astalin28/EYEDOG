@@ -1,6 +1,11 @@
 #!/bin/bash
 
 clear
+condition(){
+  clear
+  chmod +x redir.sh
+  bash redir.sh
+}
 
 echo -e "\033[1;31m"
 file=$(cat logo.txt)
@@ -15,9 +20,25 @@ echo -e "[4] info \n\033[1;33m"
 
 read -p "Enter Your option: " red
 
+case $red in
 
-if [[ ( $red == 1 ) ||  ( $red == 2 ) ||  ( $red == 3 ) || ( $red == 4 ) ]]  ; then
-  clear
-  chmod +x redir.sh
-  bash redir.sh
-fi
+  1)
+    condition
+  ;;
+
+  2)
+    condition
+  ;;
+
+  3)
+    condition
+  ;;
+
+  4)
+    condition
+  ;;
+
+  *)
+    echo "undefined option please retry"
+    ;;
+esac
